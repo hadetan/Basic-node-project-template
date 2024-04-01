@@ -34,9 +34,13 @@ Lets take a look inside the `src` folder
     ```
         PORT=3000
     ```
- - go inside the `src` folder and execute the following command:
+ - In the root directory do
+ ```
+      npm install --save-dev sequelize-cli
+ ```
+ - go inside the `src` folder by doing `cd src` and execute the following command:
     ```
-      npx sequelize init
+      npx sequelize-cli init
     ```
  - By executing the above command you will get migrations and seeders folder along with a config.json inside the config folder. 
  - If you're setting up your development environment, then write the username of your db, password of your db and in dialect mention whatever db you are using for ex: mysql, mariadb etc
